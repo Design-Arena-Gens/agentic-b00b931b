@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV Footage - Tiger vs Dog Standoff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cctv-container">
+        <div id="cctv-overlay">
+            <div class="timestamp" id="timestamp">2025-10-16 03:42:17</div>
+            <div class="camera-id">CAM 04 - SECTOR 7</div>
+            <div class="recording-indicator">
+                <span class="rec-dot"></span>
+                <span class="rec-text">REC</span>
+            </div>
+        </div>
+        <canvas id="videoCanvas"></canvas>
+        <div id="scanlines"></div>
+        <div id="noise"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
